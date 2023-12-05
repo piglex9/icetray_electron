@@ -9,6 +9,7 @@ end
 
 local global = {
     version = "";
+    ui_status = {};
 }
 local env = getrenv()
 env.workspace = game:GetService("Workspace")
