@@ -2018,7 +2018,7 @@ end
 local player = players.LocalPlayer
 local userId = player.UserId
 
-local window = icetray.CreateWindow("ice tray v4", 0, name)
+local window = icetray.CreateWindow("ice tray v4", 0, player.Name)
 local plr = window:Tab("Player", true)
 local combat = window:Tab("Combat")
 local vehicle = window:Tab("Vehicle")
