@@ -2024,7 +2024,6 @@ local plr = window:Tab("Player", true)
 local combat = window:Tab("Combat")
 local vehicle = window:Tab("Vehicle")
 local misc = window:Tab("Misc")
-local info = window:Tab("Info")
 
 global.ui = {}
 global.ui.window = {}
